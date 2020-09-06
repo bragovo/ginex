@@ -4,7 +4,9 @@ go 1.15
 
 require (
 	github.com/gin-gonic/gin v1.6.3
-	github.com/go-pg/pg v8.0.7+incompatible // indirect
+	github.com/go-pg/pg v8.0.7+incompatible
+	github.com/go-pg/pg/v10 v10.0.0-beta.16
+	github.com/go-pg/pgext v0.1.0
 	github.com/go-playground/validator/v10 v10.3.0 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect

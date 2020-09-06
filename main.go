@@ -4,10 +4,12 @@ import (
   "ginex/api/controllers"
 
   "github.com/gin-gonic/gin"
+  // "github.com/go-pg/pg"
 )
 
 func main() {
   router := gin.Default()
+
   api := router.Group("/api")
   {
     api.GET("posts", controllers.GetPosts)
